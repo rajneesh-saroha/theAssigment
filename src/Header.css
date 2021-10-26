@@ -1,0 +1,38 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(3, 8, 34);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_logout {
+  color: white;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.header_title {
+  margin-left: 40px;
+  color: white;
+}
+.dashboard_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.table {
+  flex: 0.6;
+}
+.form {
+  flex: 0.4;
+}
+td {
+  text-align: center;
+}
+table {
+  width: 100%;
+}
